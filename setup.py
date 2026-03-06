@@ -47,6 +47,7 @@ setup(
             
             'traffic_light = my_robot_controller.traffic_light:main',
             'car = my_robot_controller.car:main',
+            'temperature_sensor = my_robot_controller.temperature_sensor:main',
         ],
     },
 )
