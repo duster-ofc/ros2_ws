@@ -1,6 +1,7 @@
 from setuptools import find_packages, setup
 import os
 from glob import glob
+from setuptools import find_packages, setup
 
 package_name = 'my_robot_controller'
 
@@ -42,7 +43,10 @@ setup(
             'imu_reader = my_robot_controller.imu_reader:main',
             'encoder_simulator = my_robot_controller.encoder_simulator:main',
             'wheel_odometry = my_robot_controller.wheel_odometry:main',
-           'lidar_simulator = my_robot_controller.lidar_simulator:main',
+            'lidar_simulator = my_robot_controller.lidar_simulator:main',
+            
+            'traffic_light = my_robot_controller.traffic_light:main',
+            'car = my_robot_controller.car:main',
         ],
     },
 )
